@@ -9,6 +9,7 @@
         <?php
         // ソート関数の定義
         function sort_2way($array, $order) {
+            // TRUEなら昇順、FALSEなら降順にソート
             if ($order) {
                 echo '昇順にソートします。<br>';
                 sort($array);
@@ -16,8 +17,10 @@
                 echo '降順にソートします。<br>';
                 rsort($array);
             }
-            foreach ($array as $array) {
-                echo $array . '<br>';
+
+            // ソート結果を1行ずつ表示
+            foreach ($array as $value) {
+                echo $value . '<br>';
             }
         }
 
