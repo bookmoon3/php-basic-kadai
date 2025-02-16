@@ -22,11 +22,11 @@
         }
 
         // ソースする配列を宣言
-        $array = [15, 4, 18, 23, 10];
+        $nums = [15, 4, 18, 23, 10];
 
         // 配列をソート
-        sort_2way($array, TRUE);
-        sort_2way($array, FALSE);
+        sort_2way($nums, TRUE);
+        sort_2way($nums, FALSE);
         ?>
     </p>
 </body>
